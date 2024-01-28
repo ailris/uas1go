@@ -28,7 +28,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: wieliachris/uas1
+          images: wieliachris/go
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
